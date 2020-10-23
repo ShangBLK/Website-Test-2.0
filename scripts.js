@@ -32,8 +32,8 @@ request.onload = function () {
       card.appendChild(p);
     });
   } else {
-    const errorMessage = document.createElement('marquee');
-    errorMessage.textContent = `Gah, it's not working!`;
+    const errorMessage = document.createElement('error');
+    errorMessage.textContent = `error`;
     app.appendChild(errorMessage);
   }
 }
